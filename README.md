@@ -1,1 +1,3 @@
-"# taverna"
+"git add (Arquivo(s) a ser enviado)"
+"git commit -m "Titulo da alteração" (Oque se refere esse commit)"
+"git push -u origem master (atualizar a alteração no repositorio git)"
