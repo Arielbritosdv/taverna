@@ -8,7 +8,27 @@
 	import ReactDOM from ‘React-dom’
 	import React from ‘react’ (PARA UTILIZAR O JSX)
 
-CRIANDO Constante - primeiro Elemento
+- CRIANDO Constante - primeiro Elemento
 	const elemento = document.getElementbyID(’root’) (ELEMENTO DO INDEX.HTML)
 	ReactDOM.render(’Ola React’,elemento) ou via JSX 
 	ReactDOM.render(<H1>Ola  React</H1>,elemento)
+
+- CRIANDO COMPONENTE JSX
+	
+	Criar nova Pasta Componente
+	Criar novo arquivo EX: PrimeiroComponente.jsx
+	
+	editar PrimeiroComponente.jsx
+		import React from 'react'
+		
+		function primeiro (){
+			return <h1>PRIMEIRO COMPONENTE</h1>
+		}
+	
+	export default primeiro // EXPORTAR PARA A INDEX DO PROJETO //
+
+- IMPORTANDO FUNCAO-COMPONENTE PARA index
+	import PrimeiroComponente from './Componente/PrimeiroComponente'
+
+- Condicional IF
+	true ? 'recebe isso' : 'se nao receberá isso'
