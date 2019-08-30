@@ -1,0 +1,14 @@
+- CRIANDO PROJETO
+	npm i -g create-react-native (instalando dependencia)
+	create-react-native NOME-DO-PROJETO (criando projeto)
+- INICIAR PROJETO
+	CD EXERCICIOS-REACT
+	NPM START (DENTRO DA PASTA DO PROJETO)
+- IMPORTS INDEX.JS
+	import ReactDOM from ‘React-dom’
+	import React from ‘react’ (PARA UTILIZAR O JSX)
+
+CRIANDO Constante - primeiro Elemento
+	const elemento = document.getElementbyID(’root’) (ELEMENTO DO INDEX.HTML)
+	ReactDOM.render(’Ola React’,elemento) ou via JSX 
+	ReactDOM.render(<H1>Ola  React</H1>,elemento)
