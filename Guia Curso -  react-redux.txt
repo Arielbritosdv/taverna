@@ -26,9 +26,27 @@
 		}
 	
 	export default primeiro // EXPORTAR PARA A INDEX DO PROJETO //
+	
 
 - IMPORTANDO FUNCAO-COMPONENTE PARA index
 	import PrimeiroComponente from './Componente/PrimeiroComponente'
 
 - Condicional IF
 	true ? 'recebe isso' : 'se nao receberá isso'
+
+
+- Componente com Arrow Function
+
+	import React from 'react'
+
+	const ComponenteA = props =>
+		<h1>Primeiro diz {props.valor}</h1>
+		
+	const ComponenteB = props =>
+		<h1>Segundo diz {props.valor}</>
+
+	export {ComponenteA,ComponenteB} EXPORTANDO APENAS O COMPONENTE
+
+
+
+
